@@ -1,0 +1,28 @@
+:root {
+    --main-color: cadetblue;
+    --secondary-color: indigo;
+}
+
+body {
+    background-color: var(--main-color);
+    margin: 5vh;
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+h1 {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: green;
+}
